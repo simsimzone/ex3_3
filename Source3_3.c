@@ -58,7 +58,7 @@ void expand(char s1 [], char s2 [])
   into the equivalent complete list abc...xyz in s2. Allow for letters of either case and digits, 
   and be prepared to handle cases like a-b-c and a-z0-9 and -a-z. Arrange that a leading or trailing - is taken literally.
 */
-void ex3_3()
+void ex3_3() //djjdjdjdj
 {
 	char s1 [] = "-i-z-aA-S-A S-A 0--9-0-3", s2[MAX_CHARS];
 	int c, i = 0;
