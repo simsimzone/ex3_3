@@ -25,6 +25,7 @@ void expand(char s1 [], char s2 [])
 		c1 = s1[i];
 		op = s1[i + 1];
 		c2 = s1[i + 2];
+		/*
 		if (i != 0 && c1 == '-' && isSame(s1[i - 1], op)) //to handle a-b-c
 		{
 			c1 = s1[i - 1];
@@ -33,6 +34,7 @@ void expand(char s1 [], char s2 [])
 			i--;
 			j--;
 		}
+		*/
 		if (isValid(c1) && op == '-' && c2 != '\0' && isSame(c1, c2))//guaranteed after i there are two characters. (c1)(-)(c2)
 		{
 			if (c1 < c2)
